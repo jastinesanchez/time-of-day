@@ -90,7 +90,7 @@
 		let myGreeting ='';
 		let myColor = '';
 		let myPic = "images/";
-		myHours = 8; // testing - REMOVE THIS
+		myHours = 14; // testing - REMOVE THIS
 
 		
 		
@@ -98,6 +98,11 @@
     		myGreeting = "Good Morning!!";
 			myColor = "yellow";
 			myPic += "morning.jpg";
+		
+		else if(myHours >= 12 && myHours <18){
+    	myGreeting = "Good Afternoon!!";
+		myColor = "orange";
+		myPic += "evening.jpg";
 		
 		}else{
     		alert('NOT morning');
