@@ -75,7 +75,7 @@
 	 <p>There is an image with a class of FLEXIBLE which is set to a max-width equal to the size of the image.  Simutaneously the class sets the image to a percentage width, allowing the image to flex in size.  The height is not changed, as this would skew the image.</p>
 	 <p>The LIST elements inside the NAV are displayed inline by setting the display to be inline-block.  Bullets are removed by setting the UL to display</p>
 	 <p>The FOOTER includes a clear:both to keep everything above it!</p>
-	  <img src="images/evening.jpg" alt="time of day pic" id="my pic" class="flexible" />
+	  <img src="images/evening.jpg" alt="time of day pic" id="myPic" class="flexible" />
      </main>
     <footer>
       <small>&copy; 2013, All Rights Reserved ~
@@ -90,6 +90,7 @@
 		let myGreeting ='';
 		let myColor = '';
 		let myPic = "images/";
+		
 		myHours = 14; // testing - REMOVE THIS
 
 		
@@ -112,7 +113,7 @@
 
 		document.getElementById('mydiv').innerHTML = myGreeting;
 		document.body.style.backgroundColor = myColor;
-		document.getElementById("mypic").src = "myPic";
+		document.getElementById("mypic").src = myPic;
 
 	</script>
 </body>
